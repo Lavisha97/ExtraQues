@@ -11,7 +11,7 @@ class Divisible
 		z = a;
 		int y = 0 , sum = 0;
 		
-		
+		/*
 		while(z != 0)
 		{
 			y = z % 10;
@@ -34,6 +34,23 @@ class Divisible
 		{
 			System.out.println("Acadview Learning");
 		}
+		*/
 		
+		if(a%5 == 0 && a%3 == 0)
+		{
+			System.out.println("Acadview Learning");
+		}
+		else if(a%5 == 0)
+		{
+			System.out.println("Learning");
+		}
+		else if(a%3 == 0)
+		{
+			System.out.println("Acadview");
+		}
+		else
+		{
+			System.out.println("Not Divisible by 3 or 5");
+		}
 	}
 }
